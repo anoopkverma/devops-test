@@ -1,5 +1,5 @@
 pipeline {
-  agent any {
+  agent any
     stages {
       stage('Branch test') {
         steps {
@@ -7,5 +7,4 @@ pipeline {
         }
       }
     }
-  }
 }
